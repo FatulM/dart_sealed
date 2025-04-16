@@ -8,6 +8,9 @@
 
 Generate sealed class hierarchy for Dart and Flutter.
 
+**NOTE** that this is only a clone of the upstream git repository
+which I have fixed some issues and updated some dependencies.
+
 ## Features
 
 * Generate sealed class with abstract super type and data subclasses.
@@ -26,12 +29,41 @@ Generate sealed class hierarchy for Dart and Flutter.
 
 Add dependencies in your `pubspec.yaml` file.
 
+Since this is not the original repository, you can not use like this:
+
 ```yaml
+# WON'T WORK LIKE THIS:
 dependencies:
-  sealed_annotations: ^latest.version
+  sealed_annotations: '2.0.0'
 
 dev_dependencies:
-  sealed_generators: ^latest.version
+  sealed_generators: '2.0.0'
+```
+
+Instead, use like this:
+
+This will override the three dependencies to be downloaded from git.
+
+```yaml
+dependencies:
+  sealed_annotations: '2.0.0'
+
+dev_dependencies:
+  sealed_generators: '2.0.0'
+
+dependency_overrides:
+  sealed_annotations:
+    git:
+      url: https://github.com/FatulM/dart_sealed
+      path: sealed_annotations/
+  sealed_writer:
+    git:
+      url: https://github.com/FatulM/dart_sealed
+      path: sealed_writer/
+  sealed_generators:
+    git:
+      url: https://github.com/FatulM/dart_sealed
+      path: sealed_generators/
 ```
 
 Import `sealed_annotations`.
