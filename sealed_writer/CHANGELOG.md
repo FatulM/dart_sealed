@@ -1,6 +1,6 @@
 ## 2.0.0
 
-- Migrate dart analyzer
+- TODO
 
 ## 1.14.0
 
