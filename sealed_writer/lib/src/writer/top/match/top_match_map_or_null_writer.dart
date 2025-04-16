@@ -46,7 +46,7 @@ class TopMatchMapOrNullWriter extends TopMatchBaseWriter {
         topMatchMapOrNullArgs().joinArgsFull().withBraces().withParenthesis(),
       ].joinParts();
 
-  /// R? mapOrNull<R extends Object?>(item..., orElse) {...}
+  /// R? mapOrNull\<R extends Object?\>(item..., orElse) {...}
   String topMatchMapOrNull() => [
         topMatchMapOrNullStart(),
         '{',

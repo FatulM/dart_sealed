@@ -46,7 +46,7 @@ class TopMatchMaybeWhenWriter extends TopMatchBaseWriter {
         topMatchMaybeWhenArgs().joinArgsFull().withBraces().withParenthesis(),
       ].joinParts();
 
-  /// R maybeWhen<R extends Object?>(item..., required orElse) {...}
+  /// R maybeWhen\<R extends Object?\>(item..., required orElse) {...}
   String topMatchMaybeWhen() => [
         topMatchMaybeWhenStart(),
         '{',

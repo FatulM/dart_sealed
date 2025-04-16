@@ -46,7 +46,7 @@ class TopMatchWhenOrNullWriter extends TopMatchBaseWriter {
         topMatchWhenOrNullArgs().joinArgsFull().withBraces().withParenthesis(),
       ].joinParts();
 
-  /// R? whenOrNull<R extends Object?>(item..., orElse) {...}
+  /// R? whenOrNull\<R extends Object?\>(item..., orElse) {...}
   String topMatchWhenOrNull() => [
         topMatchWhenOrNullStart(),
         '{',

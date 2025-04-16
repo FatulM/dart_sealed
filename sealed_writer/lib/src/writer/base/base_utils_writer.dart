@@ -45,30 +45,30 @@ abstract class BaseUtilsWriter extends BaseWriter {
   String genericDecPart(ManifestParam param) =>
       '${param.name} extends ${typeSL(param.bound)}';
 
-  /// ex. <T extends Object>
+  /// ex. \<T extends Object\>
   String get genericDec =>
       manifest.params.map(genericDecPart).joinArgsSimple().withLtGtOrNot();
 
   /// ex. T
   String genericCallPart(ManifestParam param) => param.name;
 
-  /// ex. <T>
+  /// ex. \<T\>
   String get genericCall =>
       manifest.params.map(genericCallPart).joinArgsSimple().withLtGtOrNot();
 
   /// top class name with params for declaration.
-  /// ex. Result<T extends Object> or Weather
+  /// ex. Result\<T extends Object\> or Weather
   String get topDec => '$top$genericDec';
 
   /// top class name with params for call.
-  /// ex. Result<T> or Weather
+  /// ex. Result\<T\> or Weather
   String get topCall => '$top$genericCall';
 
   /// sub class name with params for declaration.
-  /// ex. WeatherSunny or ResultSuccess<T extends Object>
+  /// ex. WeatherSunny or ResultSuccess\<T extends Object\>
   String subDec(ManifestItem item) => '${subFull(item)}$genericDec';
 
   /// sub class name with params for call.
-  /// ex. WeatherSunny or ResultSuccess<T>
+  /// ex. WeatherSunny or ResultSuccess\<T\>
   String subCall(ManifestItem item) => '${subFull(item)}$genericCall';
 }

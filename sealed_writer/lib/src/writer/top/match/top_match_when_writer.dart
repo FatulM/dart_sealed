@@ -37,7 +37,7 @@ class TopMatchWhenWriter extends TopMatchBaseWriter {
         topMatchWhenArgs().joinArgsFull().withBraces().withParenthesis(),
       ].joinParts();
 
-  /// R when<R extends Object?>(required item...)
+  /// R when\<R extends Object?\>(required item...)
   /// {...}
   String topMatchWhen() => [
         topMatchWhenStart(),

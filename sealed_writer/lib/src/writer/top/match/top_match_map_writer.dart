@@ -37,7 +37,7 @@ class TopMatchMapWriter extends TopMatchBaseWriter {
         topMatchMapArgs().joinArgsFull().withBraces().withParenthesis(),
       ].joinParts();
 
-  /// R map<R extends Object?>(required item...)
+  /// R map\<R extends Object?\>(required item...)
   /// {...}
   String topMatchMap() => [
         topMatchMapStart(),

@@ -47,8 +47,8 @@ class TopBuilderWriter extends BaseUtilsWriter {
 
   /// ex. static WeatherSunny sunny() => WeatherSunny();
   ///
-  /// ex. static ResultSuccess<T> <T extends num>success(...) =>
-  /// ResultSuccess<T>(...)
+  /// ex. static ResultSuccess\<T\> \<T extends num\>success(...) =>
+  /// ResultSuccess\<T\>(...)
   String topStaticBuilder(ManifestItem item) => [
         'static ${subCall(item)} ${subLower(item)}$genericDec',
         topBuilderDecArgs(item),
@@ -59,7 +59,7 @@ class TopBuilderWriter extends BaseUtilsWriter {
 
   /// ex. factory Weather.sunny() = WeatherSunny;
   ///
-  /// ex. factory Result.success(...) = ResultSuccess<T>;
+  /// ex. factory Result.success(...) = ResultSuccess\<T\>;
   String topFactoryBuilder(ManifestItem item) => [
         'const factory $top.${subLower(item)}',
         topBuilderDecArgs(item),

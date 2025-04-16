@@ -95,7 +95,7 @@ class SealedManifest {
 })
 class WithType {
   /// type name.
-  /// for example "int?", "double" or "Result<WeatherData>".
+  /// for example "int?", "double" or "Result\<WeatherData\>".
   final String type;
 
   const WithType(this.type);

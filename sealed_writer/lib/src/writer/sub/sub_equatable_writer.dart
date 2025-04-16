@@ -11,7 +11,7 @@ class SubEquatableWriter extends BaseUtilsWriter {
   Iterable<String> subEquatableFieldNames(ManifestItem item) =>
       item.fields.map(fieldName);
 
-  /// List<Object?> get props => [a, b, ...];
+  /// List\<Object?\> get props => [a, b, ...];
   String subEquatableEquality(ManifestItem item) => [
         annotationOverride,
         [

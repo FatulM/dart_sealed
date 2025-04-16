@@ -7,7 +7,7 @@ import 'package:sealed_writer/src/writer/base/base_cast_utils_writer.dart';
 class TopMatchBaseWriter extends BaseCastUtilsWriter {
   const TopMatchBaseWriter(Manifest manifest) : super(manifest);
 
-  /// <R extends Object?>
+  /// \<R extends Object?\>
   String get topMatchParam => '<R extends Object$n>';
 
   /// required (R Function(WeatherSunny sunny)) sunny

@@ -46,7 +46,7 @@ class TopMatchMaybeMapWriter extends TopMatchBaseWriter {
         topMatchMaybeMapArgs().joinArgsFull().withBraces().withParenthesis(),
       ].joinParts();
 
-  /// R maybeMap<R extends Object?>(item..., required orElse) {...}
+  /// R maybeMap\<R extends Object?\>(item..., required orElse) {...}
   String topMatchMaybeMap() => [
         topMatchMaybeMapStart(),
         '{',
