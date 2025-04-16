@@ -1,3 +1,7 @@
+## 2.0.0
+
+- Migrate dart analyzer
+
 ## 1.14.0
 
 - Fixed some issues
