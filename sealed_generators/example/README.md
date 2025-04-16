@@ -2,9 +2,9 @@
 
 [![build](https://img.shields.io/github/actions/workflow/status/FatulM/dart_sealed/.github/workflows/dart.yml?branch=master&label=build)](https://github.com/FatulM/dart_sealed/actions/workflows/dart.yml)
 [![build](https://img.shields.io/codecov/c/gh/FatulM/dart_sealed?label=coverage)](https://codecov.io/gh/FatulM/dart_sealed)
-[![pub](https://img.shields.io/pub/v/sealed_annotations.svg?color=blue&label=sealed_annotations)](https://pub.dev/packages/sealed_annotations)
-[![pub](https://img.shields.io/pub/v/sealed_generators.svg?color=blue&label=sealed_generators)](https://pub.dev/packages/sealed_generators)
-[![pub](https://img.shields.io/pub/v/sealed_writer.svg?color=blue&label=sealed_writer)](https://pub.dev/packages/sealed_writer)
+[![pub](https://img.shields.io/badge/sealed__annotations-v2.0.0-blue)](https://github.com/FatulM/dart_sealed/tree/master/sealed_annotations)
+[![pub](https://img.shields.io/badge/sealed__generators-v2.0.0-blue)](https://github.com/FatulM/dart_sealed/tree/master/sealed_generators)
+[![version](https://img.shields.io/badge/sealed__writer-v2.0.0-blue)](https://github.com/FatulM/dart_sealed/tree/master/sealed_writer)
 
 Generate sealed class hierarchy for Dart and Flutter.
 
