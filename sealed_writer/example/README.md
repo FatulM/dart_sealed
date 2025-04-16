@@ -1,7 +1,7 @@
 # Dart Sealed Class Generator
 
-[![build](https://img.shields.io/github/actions/workflow/status/6thsolution/dart_sealed/.github/workflows/dart.yml?branch=master&label=build)](https://github.com/6thsolution/dart_sealed/actions/workflows/dart.yml)
-[![build](https://img.shields.io/codecov/c/gh/6thsolution/dart_sealed?label=coverage)](https://codecov.io/gh/6thsolution/dart_sealed)
+[![build](https://img.shields.io/github/actions/workflow/status/FatulM/dart_sealed/.github/workflows/dart.yml?branch=master&label=build)](https://github.com/FatulM/dart_sealed/actions/workflows/dart.yml)
+[![build](https://img.shields.io/codecov/c/gh/FatulM/dart_sealed?label=coverage)](https://codecov.io/gh/FatulM/dart_sealed)
 [![pub](https://img.shields.io/pub/v/sealed_annotations.svg?color=blue&label=sealed_annotations)](https://pub.dev/packages/sealed_annotations)
 [![pub](https://img.shields.io/pub/v/sealed_generators.svg?color=blue&label=sealed_generators)](https://pub.dev/packages/sealed_generators)
 [![pub](https://img.shields.io/pub/v/sealed_writer.svg?color=blue&label=sealed_writer)](https://pub.dev/packages/sealed_writer)

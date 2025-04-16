@@ -1,7 +1,7 @@
 name: sealed_generators
 description: Dart and Flutter sealed or union class generator and annotations, with match methods and other utilities.
-repository: https://github.com/6thsolution/dart_sealed/tree/master/sealed_generators
-homepage: https://github.com/6thsolution/dart_sealed
+repository: https://github.com/FatulM/dart_sealed/tree/master/sealed_generators
+homepage: https://github.com/FatulM/dart_sealed
 
 version: 2.0.0
 
