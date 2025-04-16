@@ -9,9 +9,7 @@ environment:
   sdk: '>=2.12.0 <4.0.0'
 
 dependencies:
-  # use fixed version dependency
   sealed_annotations: '2.0.0'
-  # use fixed version dependency
   sealed_writer: '2.0.0'
   build: any
   source_gen: any
@@ -23,10 +21,10 @@ dev_dependencies:
   test: any
   build_test: any
 
-# remove this on pub branch
+# THIS IS NOT THE UPSTREAM REPOSITORY AND ONLY ACCESSIBLE THROUGH GIT:
 publish_to: 'none'
 
-# remove this on pub branch
+# THIS SHOULD BE OVERRIDDEN IN YOUR OWN PROJECTS:
 dependency_overrides:
   sealed_annotations:
     path: ../sealed_annotations

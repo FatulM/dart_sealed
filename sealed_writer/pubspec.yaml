@@ -12,5 +12,5 @@ dev_dependencies:
   lints: any
   test: any
 
-# remove this on pub branch
+# THIS IS NOT THE UPSTREAM REPOSITORY AND ONLY ACCESSIBLE THROUGH GIT:
 publish_to: 'none'
